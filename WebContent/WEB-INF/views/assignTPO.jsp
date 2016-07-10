@@ -45,17 +45,17 @@
 									Assign TPO
 							</h2>
 						</div>
-						<div class="center">
+						<!-- <div class="center">
 							<a href="AdminHome"><h3>Home</h3></a>
 						</div>
-						<div class="space"></div>
+						<div class="space"></div> -->
 						<div class="center">
 							<form:form method="POST" action="SubmitAssignTPO">
 							<table align="center">
 
 							<tr>
 								<td><form:label path="userName">
-										<h3>User name:</h3>
+										<h4>User name:</h4>
 									</form:label></td>
 								<td><form:input path="userName" /></td>
 								<td><form:errors path="userName" cssClass="error" /></td>
